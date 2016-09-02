@@ -1,5 +1,5 @@
 #vue-vueRouter-webpack
-> 本项目可以帮你快速搭建一个基于Vue的单页面富应用,但这并不意味着是最佳实践,所有的目录结构和webpack配置都可以根据自己需要修改
+> 本项目可以帮你快速搭建一个基于Vue+mui的单页面富应用,但这并不意味着是最佳实践,所有的目录结构和webpack配置都可以根据自己需要修改
 
 ##教程
 > 可以访问下面的链接来查看系列教程
@@ -32,9 +32,19 @@
     │
     ├─ router.js       # 路由配置
     │
+    ├─api              # 放置与API交互js，理论上每个业务一个
+    |
+    ├─common           # 放置公用js
+    |
+    ├─entry            # 入口组件,内含路由和公共部分
+    |    │
+    |    └─ app.vue    # 入口组件
+    |    │
+    |    └─ main.js    # 启动配置
+    |    │
+    |    └─ router.js  # 路由配置
+    |
     ├─components       # 组件
-    │       │
-    │       └─ app.vue # 入口组件,内含路由和公共部分
     │
     ├─views            # 视图(即路由)
     │
@@ -48,11 +58,11 @@
     │
     ├─images           # 放置图片
     │
-    ├─styles           # 放置css
+    ├─sass             # 放置css
     │    │
-    │    ├─ common.css # 通用css
+    │    ├─ mui        # 所有mui的sass文件
     │    │
-    │    └─ reset.css  # 页面初始化css
+    │    └─ slwy.sass  # 页面样式入口文件
     │
     ├─fonts            # 放置iconfont字体
     │
