@@ -4,6 +4,8 @@
 ##教程
 > 可以访问下面的链接来查看系列教程
 
+[Vue+Webpack原github地址](https://github.com/icarusion/vue-vueRouter-webpack)
+
 [Vue+Webpack开发可复用的单页面富应用教程（配置篇）](https://www.talkingcoder.com/article/6310080842228107877)
 
 [Vue+Webpack开发可复用的单页面富应用教程（组件篇）](https://www.talkingcoder.com/article/6310724958473489215)
@@ -128,11 +130,4 @@ npm run build
 ####访问
 在浏览器地址栏输入http://127.0.0.1:8080
 
-#更新
-
-##2016.8.22
-* 全部改为ES2015
-* 抽离路由配置为router.js
-* 将routers目录重命名为views
-* vue配置默认支持less和sass
 # webpack-vue-mui
