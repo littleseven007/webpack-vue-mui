@@ -1,0 +1,34 @@
+$base: #2f77e3;  //定义主色
+$font-deep:#333; //深灰色，一般用于加深字体颜色
+$font-normal:#666; //中等灰色，一般用于正常字体颜色
+$font-easy:#999; //浅灰色，一般用于浅色字体颜色
+$border-normal:#e2e2e2; //正常边框颜色
+$bg-color-base:#efeff4; //背景色
+$bg-color-blue:#e6f2ff; //浅蓝背景色
+$orange:#ff8317; //橘色
+$radius-base:4px;  //定义基础角度
+body{
+  background-color: $bg-color-base;
+}
+.hasNav{
+  padding-bottom: 1rem;
+}
+.fl{
+  float: left;
+  display: block;
+}
+.fr{
+  float: right;
+  display: block;
+}
+.indent{
+  display: inline-block;
+  width: 2em;
+}
+.no-border{
+  border: none !important;
+}
+/*定义栅格化*/
+@for $i from 1 through 12 {
+  .col-#{$i} { width: (100%/12) * $i;@extend .fl;}
+}

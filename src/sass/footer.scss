@@ -1,0 +1,49 @@
+/*footer nav标签栏*/
+.nav-footer{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 1rem;
+  background: #fff;
+  border-top: 1px solid $border-normal;
+  &>div{
+    color: $font-deep;
+    &.active{
+      color: $base;
+      .plane{
+        background-image: url("../images/footer-plane-hover.png");
+      }
+      .hb{
+        background-image: url("../images/footer-hb-hover.png");
+      }
+      .zhiji{
+        background-image: url("../images/footer-zhiji-hover.png");
+      }
+    }
+    .item-logo{
+      display: block;
+      margin: .1rem auto 0;
+      width: .44rem;
+      height: .44rem;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: .44rem auto;
+    }
+    span{
+      display: block;
+      text-align: center;
+      height: .4rem;
+      line-height: .4rem;
+    }
+    .plane{
+      background-image: url("../images/footer-plane.png");
+    }
+    .hb{
+      background-image: url("../images/footer-hb.png");
+    }
+    .zhiji{
+      background-image: url("../images/footer-zhiji.png");
+    }
+  }
+}

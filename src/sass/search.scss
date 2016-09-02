@@ -1,0 +1,49 @@
+
+/*search 页面*/
+.search{
+  padding:.2rem;
+  .panel-search{
+    input,select{
+      margin-top: .05rem;
+  }
+    .panel-title{
+      height: .9rem;
+      line-height: .9rem;
+      padding: 0;
+      .title-left,.title-right{
+        font-size: .36rem;
+        text-align: center;
+        color: $font-easy;
+        background: #fff;
+        &.active{
+          background: #dee3e6;
+          color: $font-normal;
+      }
+    }
+  }
+    .panel-content{
+      .item-left{
+        color: $base;
+        font-size: .3rem;
+    }
+      .item-right{
+        color: $font-deep;
+        font-size: .32rem;
+        @extend .slwy-icon;
+        @extend .slwy-icon.icon-arrow-right;
+    }
+      .right-icon{
+        width: 1.17rem;
+        height: 1.8rem;
+        background: #fff url("../images/arrow-swap.png") no-repeat center;
+        background-size: .48rem auto;
+        position: absolute;
+        right: 0;
+        top:0
+    }
+  }
+    #search{
+      margin: .6rem auto .2rem;
+  }
+}
+}

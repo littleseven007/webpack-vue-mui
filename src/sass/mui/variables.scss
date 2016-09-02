@@ -1,0 +1,78 @@
+//
+// Variables
+// --------------------------------------------------
+$namespace: "mui-" !default;
+
+// Type
+// --------------------------------------------------
+$font-family-default: "Helvetica Neue", Helvetica, sans-serif !default;
+$font-size-default: .26rem !default;
+$font-weight: 500 !default;
+$font-weight-light: 400 !default;
+$line-height-default: 21px !default;
+
+$base: #2f77e3;  //定义主色
+$font-deep:#333; //深灰色，一般用于加深字体颜色
+$font-normal:#666; //中等灰色，一般用于正常字体颜色
+$font-easy:#999; //浅灰色，一般用于浅色字体颜色
+$border-normal:#e2e2e2; //正常边框颜色
+$bg-color-base:#f6f6f6; //背景色
+$bg-color-blue:#e6f2ff; //浅蓝背景色
+$orange:#ff8317; //橘色
+$radius-base:4px;  //定义基础角度
+// Colors
+// --------------------------------------------------
+
+// Main theme colors
+//blue theme
+$primary-color: #007aff !default;
+//green theme
+//$primary-color: #4cd964 !default;
+//$chrome-color:  rgba(247,247,247,.98) !default;
+$chrome-color:  rgb(247,247,247) !default;
+
+// Action colors
+$default-color:  #929292 !default;
+$positive-color: #4cd964 !default;
+$negative-color: #dd524d !default;
+$warning-color: #f0ad4e !default;
+$royal-color: #8a6de9 !default;
+$grey-color:#c7c7cc !default;
+
+
+// Bars
+// --------------------------------------------------
+
+$bar-base-height:  44px !default;
+$bar-tab-height:   50px !default;
+$bar-side-spacing: 10px !default;
+
+
+// Cards
+// --------------------------------------------------
+
+$card-bg: #fff !default;
+$card-margin:10px !default;
+$card-border-radius:2px !default;
+$card-font-size:.24rem !default;
+$card-media-body-margin-left:44px !default;
+$card-footer-color:#6d6d72 !default;
+
+
+// Buttons
+// --------------------------------------------------
+
+$button-font-size: .36rem !default;
+
+
+// Transitions
+// --------------------------------------------------
+
+$timing-fuction: cubic-bezier(.1,.5,.1,1) !default; // Inspired by @c2prods
+
+
+// Borders
+// --------------------------------------------------
+
+$border-default: 1px solid #ddd !default;
+$border-radius: 6px !default;

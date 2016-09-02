@@ -1,0 +1,12 @@
+//base
+@import "common/base.scss";
+@import "common/btn.scss";
+@import "common/form.scss";
+@import "common/icon.scss";
+@import "common/panel.scss";
+
+
+//每个页面的scss
+@import "footer.scss";
+@import "search.scss";
+@import "orderDetail.scss";

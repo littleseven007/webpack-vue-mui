@@ -1,0 +1,83 @@
+/*productDetail页面*/
+.productDetail{
+  padding-top: .1rem;
+  #order{
+    .panel-title{
+      height: 1rem;
+      line-height: 1rem;
+      background: $bg-color-blue;
+      color: $base;
+      .title-right{
+        color: $orange;
+        font-size: .26rem;
+        .num{
+          font-size: .36rem;
+        }
+        b{
+          display: inline-block;
+          width: .34rem;
+          height: .34rem;
+          background: url("../images/productDetail-arrow-bottom.png") no-repeat;
+          background-size: .34rem .34rem;
+          margin-left: .05rem;
+          vertical-align: top;
+          margin-top: .33rem;
+        }
+      }
+    }
+  }
+  .voyage{
+    .feiji-icon{
+      display: inline-block;
+      width: .23rem;
+      height: .28rem;
+      background: url("../images/feiji-icon.png") no-repeat;
+      background-size: .23rem .28rem;
+      margin-right: .1rem;
+    }
+  }
+  .time{
+    .panel-title{
+      height: 1.37rem;
+      line-height: .5rem;
+    }
+    .time-left,.time-right{
+      padding: .18rem 0;
+      span{
+        display: block;
+        text-align: center;
+        &:first-child{
+          color: $font-deep;
+          font-size: .4rem;
+        }
+        &:last-child{
+          color: $font-normal;
+          font-size: .26rem;
+        }
+      }
+    }
+    .time-center{
+      height: 1.37rem;
+      background: url("../images/productDetail-arrow-right.png") no-repeat center;
+      background-size: 1.97rem .13rem;
+    }
+  }
+  .ticketsPrice{
+    .panel-title{
+      span {
+        color: #e21324;
+        font-size: .3rem;
+        margin-left: .7rem;
+      }
+    }
+  }
+  .distribution{
+    .address{
+      height: auto;
+      overflow: hidden;
+    }
+  }
+  #back{
+    margin-bottom: .2rem;
+  }
+}

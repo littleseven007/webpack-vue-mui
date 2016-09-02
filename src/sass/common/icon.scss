@@ -1,0 +1,16 @@
+/*定义icon*/
+.slwy-icon{
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-position: right center;
+  &.icon-center{
+    background-position: center center;
+  }
+  &.icon-left{
+    background-position: left center;
+  }
+  &.icon-arrow-right{
+    background-image: url("../images/icon-arrow-right.png");
+    background-size: .18rem .28rem;
+  }
+}
